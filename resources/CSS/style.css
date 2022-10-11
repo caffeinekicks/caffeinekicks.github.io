@@ -225,7 +225,6 @@ header {
 /* About Me Section */
 .about_me{
     width: 100%;
-    margin-top: px;
     height: calc(100vh - 550px);
 }
 

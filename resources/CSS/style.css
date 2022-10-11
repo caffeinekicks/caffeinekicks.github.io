@@ -93,6 +93,7 @@ header {
 .content{
     color: black;
     padding: 0 15px;
+    max-height: 400px;
 }
 
 .content .name{
@@ -240,6 +241,7 @@ header {
 .about_me .container .content{
     color: black;
     padding: 0 15px;
+    min-height: 400px;
 }
 
 .about_me .container .content .name{
@@ -270,14 +272,6 @@ header {
     border-style: solid;
     border-color: black;
 }
-
-
-
-
-
-
-
-
 
 
 

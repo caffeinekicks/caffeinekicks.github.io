@@ -79,6 +79,7 @@ header {
     width: 100%;
     margin-top: 50px;
     height: calc(50vh - 66px);
+    max-height: 400px;
 }
 
 .container{
@@ -198,7 +199,6 @@ header {
         justify-content: center;
         align-items: center; 
         flex-direction: row;
-        z-index: 3;
         right: 0;
         left: 0;
         opacity: 0;
@@ -226,6 +226,7 @@ header {
 .about_me{
     width: 100%;
     height: calc(100vh - 550px);
+    max-height: 400px;
 }
 
 .about_me .container{
@@ -260,16 +261,23 @@ header {
 
 .about_me .container .content .profile_image{
     position: relative;
-    top: -192.7px;
-    right: 145px;
+    margin-top: -206px;
 }
 
 .about_me .container .content .profile_image img{
     width: 140px;
-    height: 190px;
+    height: auto;
     border-style: solid;
     border-color: black;
 }
+
+
+
+
+
+
+
+
 
 
 

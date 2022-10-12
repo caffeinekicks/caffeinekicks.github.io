@@ -79,7 +79,8 @@ header {
     width: 100%;
     margin-top: 50px;
     height: calc(50vh - 66px);
-    max-height: 400px;
+    max-height: 360px;
+    min-height: 360px;
 }
 
 .container{
@@ -227,8 +228,10 @@ header {
 .about_me{
     width: 100%;
     height: calc(100vh - 550px);
-    max-height: 400px;
-    position: relative;
+    max-height: 360px;
+    min-height: 360px;
+    margin-top:3%;
+
 }
 
 .about_me .container{
@@ -250,6 +253,7 @@ header {
     font-size: 60px;
     font-weight: 600;
     padding-right: 170px;
+    position: relative;
 }
 
 .content .about{

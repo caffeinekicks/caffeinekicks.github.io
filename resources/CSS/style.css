@@ -167,6 +167,47 @@ header {
     color: brown;
 }
 
+/* About Me Section */
+.about_me{
+    width: 100%;
+    height: calc(100vh - 550px);
+    max-height: 360px;
+    min-height: 360px;
+    margin-top:3%;
+}
+
+.about_me .container{
+    height: 100%;
+    align-items: center;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_me .container .content{
+    color: black;
+    padding: 0 15px;
+}
+
+.about_me .container .content .name{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding-right: 170px;
+    position: relative;
+}
+
+.content .about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10.5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-size: 13.5px;
+    font-weight: 500;;
+}
+
 
 @media only screen and (min-width: 768px) {
     #menu ul li:last-child a {
@@ -224,58 +265,6 @@ header {
     }
 }
 
-/* About Me Section */
-.about_me{
-    width: 100%;
-    height: calc(100vh - 550px);
-    max-height: 360px;
-    min-height: 360px;
-    margin-top:3%;
-
-}
-
-.about_me .container{
-    height: 100%;
-    align-items: center;
-    max-width: 750px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.about_me .container .content{
-    color: black;
-    padding: 0 15px;
-}
-
-.about_me .container .content .name{
-    width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 60px;
-    font-weight: 600;
-    padding-right: 170px;
-    position: relative;
-}
-
-.content .about{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10.5px;
-    margin-left: 300px;
-    text-align: justify;
-    font-size: 13.5px;
-    font-weight: 600;;
-}
-
-.about_me .container .content .profile_image{
-    position: relative;
-    margin-top: -208px;
-}
-
-.about_me .container .content .profile_image img{
-    width: 140px;
-    height: auto;
-    border-style: solid;
-    border-color: black;
-}
 
 @media only screen and (max-width: 767px){
 /* Introduction Section */
@@ -375,7 +364,10 @@ header {
 .about_me{
     width: 100%;
     height: calc(100vh - 550px);
-    max-height: 300px;
+    max-height: 360px;
+    min-height: 360px;
+    margin-top:3%;
+
 }
 
 .about_me .container{
@@ -396,33 +388,18 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     font-weight: 600;
-    padding-right: 110px;
+    padding-right: 15%;
+    position: relative;
 }
 
 .content .about{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10.5px;
-    margin-left: 370px;
-    margin-right: 3%;
-    text-align:justify;
-    font-size: 12px;
-    font-weight: 600;
-    resize: none;
-
-}
-
-.about_me .container .content .profile_image{
-    position: fixed;
-    margin-top: 470px;
-    right: 53%;
-    max-height: 300px;
-}
-
-.about_me .container .content .profile_image img{
-    width: 120px;
-    height: auto;
-    border-style: solid;
-    border-color: black;
+    margin-left: 30%;
+    margin-right: 20%;
+    text-align: justify;
+    font-size: 12.5px;
+    font-weight: 500;
 }
 }
 

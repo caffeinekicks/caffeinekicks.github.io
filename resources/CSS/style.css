@@ -442,7 +442,7 @@ header {
         padding: 13px 0;
         position: relative;
         transition: 0.5s ease;
-      }
+    }
 
     #menu input:checked + label::before{
         content: "\00d7";
@@ -477,8 +477,8 @@ header {
     width: 100%;
     margin-top: 50px;
     height: calc(50vh - 67px);
-    max-height: 320px;
-    min-height: 320px;
+    max-height: 285px;
+    min-height: 285px;
 }
 
 .container{
@@ -570,8 +570,8 @@ header {
 .about_me{
     width: auto;
     height: calc(100vh - 550px);
-    max-height: 320px;
-    min-height: 320px;
+    max-height: 285px;
+    min-height: 285px;
     margin-top:1%;
 
 }
@@ -609,10 +609,4 @@ header {
     word-wrap: break-word;
 } 
 }
-
-
-
-
-
-
 

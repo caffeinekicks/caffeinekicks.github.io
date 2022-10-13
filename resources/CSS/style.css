@@ -443,7 +443,6 @@ header {
         position: relative;
         transition: 0.5s ease;
       }
-    }
 
     #menu input:checked + label::before{
         content: "\00d7";
@@ -610,6 +609,7 @@ header {
     word-wrap: break-word;
 } 
 }
+
 
 
 

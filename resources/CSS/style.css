@@ -539,6 +539,7 @@ header {
 
     .typewriter p{
         position: center;
+        font-size: 11px;
         color: black;
         font-family: monospace;
         overflow: hidden;

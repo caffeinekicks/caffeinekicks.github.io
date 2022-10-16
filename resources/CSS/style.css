@@ -11,7 +11,6 @@ html {
 }
 
 
-
 header {
     background: white;
     box-shadow: 0 10px 10px -10px rgba(35, 35, 38, 0.1);
@@ -79,6 +78,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: brown;
 }
+
 
 /* Introduction Section */
 .introduction {
@@ -294,6 +294,14 @@ header {
         cursor: default;
     }
 
+    .welcome{
+        display: none;
+    }
+
+    .typewriter{
+        display: none;
+    }
+
 }
 
 /* responsive menu for tablet mode */
@@ -503,15 +511,33 @@ header {
 /*************************************************************************************************************/
 
 /* responsive menu for <mobile mode */
+.welcome{
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    min-height: 30vh;
+    max-height: 30vh;
+    margin-top: 40%;
+}
+
+.welcome img{
+    width: 100%;
+    min-height: 30vh;
+    max-height: 30vh;
+}
+
 @media only screen and (max-width: 479px) {
     .typewriter{
         position: relative;
-        margin-top: 50%;
-        margin-left: 7%;
-        margin-right: 5%;
+        margin-top: 20px;
+        margin-left: 13%;
+        margin-right: 3%;
     }
 
     .typewriter p{
+        position: justify;
         color: black;
         font-family: monospace;
         overflow: hidden;

@@ -588,6 +588,7 @@ header {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
+    min-height: 100vh;
 }
 
 .card img {
@@ -596,17 +597,20 @@ header {
 
 .card h1 {
     font-size: 40px;
+    font-weight: 600;
 }
 
 .title {
     color: black;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .company {
     color: black;
     font-size: 20px;
     margin-top: 5px;
+    font-weight: 600;
 }
 
 .social {

@@ -294,11 +294,11 @@ header {
         cursor: default;
     }
 
-    .welcome{
+    .welcome {
         display: none;
     }
 
-    .typewriter{
+    .typewriter {
         display: none;
     }
 
@@ -511,7 +511,7 @@ header {
 /*************************************************************************************************************/
 
 /* responsive menu for <mobile mode */
-.welcome{
+.welcome {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 100%;
@@ -522,14 +522,15 @@ header {
     margin-top: 40%;
 }
 
-.welcome img{
+.welcome img {
     width: 100%;
     min-height: 30vh;
     max-height: 30vh;
+
 }
 
 @media only screen and (max-width: 479px) {
-    .typewriter{
+    .typewriter {
         position: relative;
         text-align: center;
         margin-top: 20px;
@@ -537,7 +538,7 @@ header {
         margin-right: 3%;
     }
 
-    .typewriter p{
+    .typewriter p {
         position: center;
         font-size: 11px;
         color: black;
@@ -660,7 +661,6 @@ header {
 
 /* styling for about me page - mobile view only */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -670,27 +670,30 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     min-height: 100vh;
+
 }
 
 .card img {
     width: 100%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-color: black;
 }
 
 .card h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
 }
 
 .title {
     color: black;
     font-size: 20px;
-    font-weight: 500;
 }
 
 .company {
     color: black;
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 6px;
     font-weight: 600;
 }
 
@@ -699,15 +702,18 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 1%;
+    
 }
 
-a {
+.social a {
     text-decoration: none;
     font-size: 22px;
     color: black;
     padding: 2%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    
 
 }
 

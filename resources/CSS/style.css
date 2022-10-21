@@ -80,7 +80,7 @@ header {
 }
 
 /*******************************************************************************************************************************************/
-@media only screen and (min-width: 499px) {
+@media only screen and (min-width: 498.9px) {
 
     #menu ul li:last-child a {
         color: white;
@@ -185,7 +185,7 @@ header {
 
 /**********************************************************************************************************************************************/
 
-@media only screen and (min-width: 1181px) {
+@media only screen and (min-width: 1180px) {
 
     /* Introduction Section */
     .introduction {
@@ -441,9 +441,9 @@ header {
 
 /********************************************************************************************************************************************/
 /* responsive in tablet mode */
-@media only screen and (max-width: 1180px) and (min-width: 500px) {
-    body {
-        overflow-x: hidden;
+@media only screen and (max-width: 1180px) and (min-width: 499px) {
+    header {
+        min-width: 100%;
     }
 
     .logo h4 {
@@ -455,7 +455,7 @@ header {
         justify-content: space-between;
         align-items: center;
         max-width: 100%;
-        margin: 0 auto;
+        margin: auto;
         padding: 8px 10px;
         position: relative;
     }
@@ -547,7 +547,7 @@ header {
         color: black;
         line-height: 15px;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .icon .fa-arrow-circle-o-down {
@@ -790,7 +790,7 @@ header {
     max-height: 30vh;
 }
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 498.9px) {
     .typewriter {
         position: relative;
         text-align: center;
@@ -907,7 +907,7 @@ header {
 }
 
 /* responsive for <mobile mode */
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 498.9px) {
 
     /* Introduction Section */
     .introduction,

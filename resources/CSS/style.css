@@ -185,7 +185,7 @@ header {
 
 /**********************************************************************************************************************************************/
 
-@media only screen and (min-width: 1181px){
+@media only screen and (min-width: 1181px) {
 
     /* Introduction Section */
     .introduction {
@@ -309,7 +309,7 @@ header {
         max-width: 50%;
     }
 
-    
+
 
     /* styling for Skills Section */
     .skills {
@@ -442,6 +442,9 @@ header {
 /********************************************************************************************************************************************/
 /* responsive in tablet mode */
 @media only screen and (max-width: 1180px) and (min-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
 
     .logo h4 {
         font-size: small;
@@ -478,7 +481,7 @@ header {
         margin-left: 20px;
     }
 
-    #menu ul li:not(:last-child) a{
+    #menu ul li:not(:last-child) a {
         margin: 5px;
     }
 
@@ -919,7 +922,7 @@ header {
 }
 
 /* styling for introduction(home) page - mobile view only */
-#intro-1{
+#intro-1 {
     background-color: black;
 }
 

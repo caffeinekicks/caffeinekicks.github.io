@@ -10,9 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 header {
     background: white;
@@ -23,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1600px;
+    max-width: 100vh;
     margin: 0 auto;
     padding: 10px 15px;
     position: relative;
@@ -440,9 +437,6 @@ header {
 /********************************************************************************************************************************************/
 /* responsive menu for tablet mode */
 @media only screen and (max-width: 1180px) and (min-width: 500px) {
-    body {
-        overflow-x: hidden;
-    }
 
     .logo h4 {
         font-size: small;
@@ -452,7 +446,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1180px;
+        max-width: 100vh;
         margin: 0 auto;
         padding: 10px 15px;
         position: relative;
@@ -915,6 +909,9 @@ header {
 }
 
 /* styling for introduction(home) page - mobile view only */
+body{
+    background-color: black;
+}
 
 #menu-1 {
     position: relative;
@@ -922,7 +919,6 @@ header {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     justify-content: right;
-
 }
 
 #menu-1 ul {
@@ -936,7 +932,7 @@ header {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    color: black;
+    color: whitesmoke;
     padding: 5px 4px;
 
 }
@@ -948,6 +944,7 @@ header {
 .logo-1 {
     position: relative;
     margin-top: 8%;
+    color: white;
 }
 
 .logo-1 h4:hover {
@@ -973,17 +970,18 @@ header {
     width: 100%;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     border-style: solid;
-    border-color: black;
 }
 
 .card h1 {
     font-size: 45px;
     font-weight: 600;
+    color: white;
 }
 
 .title {
     color: black;
     font-size: 20px;
+    color: white;
 }
 
 .company {
@@ -991,6 +989,7 @@ header {
     font-size: 20px;
     margin-top: 6px;
     font-weight: 600;
+    color: white;
 }
 
 .social {
@@ -1000,17 +999,15 @@ header {
     width: 100%;
     margin-top: 1%;
     margin-left: 1%;
+    
 
 }
 
 .social a {
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    color: white;
     padding: 2%;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-
-
 }
 
 .social a:hover {

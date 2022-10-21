@@ -275,7 +275,7 @@ header {
     position: relative;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 499px) {
 
     #menu ul li:last-child a {
         color: white;
@@ -311,11 +311,12 @@ header {
     width: 100%;
     max-height: 550px;
     min-height: 550px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    position: relative; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    margin-top: 2%;
 }
 
-.container_skills{
+.container_skills {
     text-align: justify;
     color: black;
     width: 70%;
@@ -323,66 +324,69 @@ header {
     min-height: 530px;
     margin-top: 30px;
     position: relative;
-    left: 30%;  
-    
+    left: 30%;
+
 }
 
-.container_skills .name{
+.container_skills .name {
     font-size: 50px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
-.skills-box1 h3{
+.skills-box1 h3 {
     font-size: 16px;
     text-align: center;
     font-weight: 600;
 }
 
-.skills-box2 h3{
+.skills-box2 h3 {
     font-size: 16px;
     text-align: center;
     font-weight: 600;
 }
 
-.skills-box3 h3{
+.skills-box3 h3 {
     font-size: 16px;
     text-align: center;
     font-weight: 600;
 }
 
-.skills-box4 h3{
+.skills-box4 h3 {
     font-size: 16px;
     text-align: center;
     font-weight: 600;
 }
 
-.skills-box1 ul{
+.skills-box1 ul {
     font-size: 14px;
     margin-top: 2%;
     margin-left: 2%;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
-.skills-box1, .skills-box2, .skills-box3, .skills-box4 ul li{
-    list-style:circle;
+.skills-box1,
+.skills-box2,
+.skills-box3,
+.skills-box4 ul li {
+    list-style: circle;
     margin-left: 12px;
 }
 
-.skills-box2 ul{
+.skills-box2 ul {
     font-size: 14px;
     margin-top: 2%;
     margin-left: 2%;
     font-weight: 600;
 }
 
-.skills-box3 ul{
+.skills-box3 ul {
     font-size: 14px;
     margin-top: 2%;
     margin-left: 2%;
     font-weight: 600;
 }
 
-.skills-box4 ul{
+.skills-box4 ul {
     font-size: 14px;
     margin-top: 2%;
     margin-left: 2%;
@@ -390,7 +394,7 @@ header {
 }
 
 
-.skills-box1{
+.skills-box1 {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     margin: 0;
     position: relative;
@@ -399,7 +403,7 @@ header {
     height: 190px;
 }
 
-.skills-box2{
+.skills-box2 {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     margin: 0;
     position: relative;
@@ -409,7 +413,7 @@ header {
     top: -190px;
 }
 
-.skills-box3{
+.skills-box3 {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     margin: 0;
     position: relative;
@@ -418,7 +422,7 @@ header {
     top: -170px;
 }
 
-.skills-box4{
+.skills-box4 {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
     margin: 0;
     position: relative;
@@ -430,7 +434,7 @@ header {
 
 /********************************************************************************************************************************************/
 /* responsive menu for tablet mode */
-@media only screen and (max-width: 767px) and (min-width: 480px) {
+@media only screen and (max-width: 1180px) and (min-width: 500px) {
     body {
         overflow-x: hidden;
     }
@@ -477,7 +481,7 @@ header {
 }
 
 /* responsive for tablet mode */
-@media only screen and (max-width: 767px) and (min-width: 480px) {
+@media only screen and (max-width: 1180px) and (min-width: 500px) {
 
     /* Introduction Section */
     .introduction {
@@ -630,6 +634,132 @@ header {
         top: 15px;
         position: relative;
     }
+
+    /* styling for Skills Section */
+    .skills {
+        width: 100%;
+        max-height: 550px;
+        min-height: 550px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        margin-top: 2%;
+    }
+
+    .container_skills {
+        text-align: justify;
+        color: black;
+        width: 70%;
+        max-height: 530px;
+        min-height: 530px;
+        margin-top: 30px;
+        position: relative;
+        left: 25%;
+
+    }
+
+    .container_skills .name {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .skills-box1 h3 {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .skills-box2 h3 {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .skills-box3 h3 {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .skills-box4 h3 {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .skills-box1 ul {
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2%;
+        font-weight: 600;
+    }
+
+    .skills-box1,
+    .skills-box2,
+    .skills-box3,
+    .skills-box4 ul li {
+        list-style: circle;
+        margin-left: 12px;
+    }
+
+    .skills-box2 ul {
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2%;
+        font-weight: 600;
+    }
+
+    .skills-box3 ul {
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2%;
+        font-weight: 600;
+    }
+
+    .skills-box4 ul {
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2%;
+        font-weight: 600;
+    }
+
+
+    .skills-box1 {
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        position: relative;
+        width: 300px;
+        margin-top: 2%;
+        height: 190px;
+    }
+
+    .skills-box2 {
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        position: relative;
+        width: 300px;
+        height: 190px;
+        left: 320px;
+        top: -190px;
+    }
+
+    .skills-box3 {
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        position: relative;
+        width: 300px;
+        height: 192px;
+        top: -170px;
+    }
+
+    .skills-box4 {
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        position: relative;
+        width: 300px;
+        top: -362px;
+        left: 320px;
+        height: 192px;
+    }
 }
 
 /*************************************************************************************************************/
@@ -652,7 +782,7 @@ header {
     max-height: 30vh;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 499px) {
     .typewriter {
         position: relative;
         text-align: center;
@@ -769,7 +899,7 @@ header {
 }
 
 /* responsive for <mobile mode */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 499px) {
 
     /* Introduction Section */
     .introduction,
@@ -777,8 +907,7 @@ header {
     .content,
     .about_me,
     .container_me,
-    .skills
-    .container_skills,
+    .skills .container_skills,
     .content_me::before {
         display: none;
     }

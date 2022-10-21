@@ -909,7 +909,7 @@ header {
 }
 
 /* styling for introduction(home) page - mobile view only */
-body{
+#intro-1{
     background-color: black;
 }
 
@@ -999,8 +999,6 @@ body{
     width: 100%;
     margin-top: 1%;
     margin-left: 1%;
-    
-
 }
 
 .social a {

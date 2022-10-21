@@ -443,7 +443,7 @@ header {
 /* responsive in tablet mode */
 @media only screen and (max-width: 1180px) and (min-width: 499px) {
     header {
-        min-width: 100%;
+        min-width: 100vh;
     }
 
     .logo h4 {
@@ -454,7 +454,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 100%;
+        min-width: 100vh;
         margin: auto;
         padding: 8px 10px;
         position: relative;
@@ -491,7 +491,7 @@ header {
 
     /* Introduction Section */
     .introduction {
-        width: 100%;
+        min-width: 100vh;
         height: calc(50vh - 66px);
         max-height: 350px;
         min-height: 350px;
@@ -508,7 +508,7 @@ header {
         max-height: 350px;
         min-height: 350px;
         position: relative;
-        width: 100%;
+        min-width: 100vh;
         left: 25%;
         top: 30px;
     }
@@ -577,7 +577,7 @@ header {
 
     /* About Me Section */
     .about_me {
-        width: 100%;
+        min-width: 100vh;
         max-height: 350px;
         min-height: 350px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -591,13 +591,12 @@ header {
 
     .content_me {
         color: black;
-        width: 100%;
+        min-width: 100vh;
         max-height: 350px;
         min-height: 350px;
         margin-top: 5px;
         position: relative;
         left: 25%;
-        right: 15%;
     }
 
     .content_me .name {
@@ -645,7 +644,7 @@ header {
 
     /* styling for Skills Section */
     .skills {
-        width: 100%;
+        min-width: 100vh;
         max-height: 550px;
         min-height: 550px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -656,7 +655,7 @@ header {
     .container_skills {
         text-align: justify;
         color: black;
-        width: 100%;
+        min-width: 100vh;
         max-height: 530px;
         min-height: 530px;
         margin-top: 40px;

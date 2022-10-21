@@ -508,7 +508,7 @@ header {
         max-height: 350px;
         min-height: 350px;
         position: relative;
-        width: 70%;
+        width: 100%;
         left: 25%;
         top: 30px;
     }
@@ -656,7 +656,7 @@ header {
     .container_skills {
         text-align: justify;
         color: black;
-        width: 70%;
+        width: 100%;
         max-height: 530px;
         min-height: 530px;
         margin-top: 40px;

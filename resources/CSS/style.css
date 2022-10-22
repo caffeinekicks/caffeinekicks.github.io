@@ -10,10 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
+#home{
+    background-color: lightgray;
+}
 
 header {
-    background: white;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    background: lightgray;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 #menu {
@@ -82,6 +85,7 @@ header {
 /*******************************************************************************************************************************************/
 @media only screen and (min-width: 498.9px) {
 
+
     #menu ul li:last-child a {
         color: white;
         padding-left: 20px;
@@ -147,13 +151,13 @@ header {
 
     /* Style the front side */
     .flip_box_front {
-        background-color: whitesmoke;
+        background-color: lightgrey;
         color: black;
     }
 
     /* Style the back side */
     .flip_box_back {
-        background-color: white;
+        background-color: lightgrey;
         color: black;
         transform: rotateY(180deg);
     }
@@ -186,16 +190,18 @@ header {
 /**********************************************************************************************************************************************/
 
 @media only screen and (min-width: 1180px) {
+    
 
     /* Introduction Section */
     .introduction {
         width: 100%;
-        margin-top: 2%;
+        margin-top: 0.1%;
+        padding-top: 1.5%;
         height: calc(50vh - 66px);
-        max-height: 380px;
-        min-height: 380px;
+        max-height: 450px;
+        min-height: 450px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
     }
 
     .container {
@@ -237,8 +243,8 @@ header {
         width: 30px;
         display: inline-block;
         position: absolute;
-        margin-top: -130px;
-        margin-left: 177px;
+        margin-top: -140px;
+        margin-left: 178px;
     }
 
     .icon a {
@@ -281,7 +287,7 @@ header {
         min-height: 430px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: relative;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0);
     }
 
     .container_me {
@@ -312,24 +318,22 @@ header {
     }
 
 
-
     /* styling for Skills Section */
     .skills {
         width: 100%;
-        max-height: 550px;
-        min-height: 550px;
+        max-height: 580px;
+        min-height: 580px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: relative;
-        margin-top: 2%;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
     }
 
     .container_skills {
         text-align: justify;
         color: black;
         width: 70%;
-        max-height: 530px;
-        min-height: 530px;
+        max-height: 580px;
+        min-height: 580px;
         margin-top: 30px;
         position: relative;
         left: 30%;
@@ -339,30 +343,35 @@ header {
     .container_skills .name {
         font-size: 50px;
         font-weight: 600;
+        padding-top: 3%;
     }
 
     .skills-box1 h3 {
         font-size: 16px;
         text-align: center;
         font-weight: 600;
+        padding-top: 5px;
     }
 
     .skills-box2 h3 {
         font-size: 16px;
         text-align: center;
         font-weight: 600;
+        padding-top: 5px;
     }
 
     .skills-box3 h3 {
         font-size: 16px;
         text-align: center;
         font-weight: 600;
+        padding-top: 5px;
     }
 
     .skills-box4 h3 {
         font-size: 16px;
         text-align: center;
         font-weight: 600;
+        padding-top: 5px;
     }
 
     .skills-box1 ul {
@@ -404,16 +413,17 @@ header {
 
 
     .skills-box1 {
-        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
         margin: 0;
         position: relative;
         width: 300px;
         margin-top: 2%;
         height: 190px;
+        
     }
 
     .skills-box2 {
-        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
         margin: 0;
         position: relative;
         width: 300px;
@@ -423,7 +433,7 @@ header {
     }
 
     .skills-box3 {
-        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
         margin: 0;
         position: relative;
         width: 300px;
@@ -432,7 +442,7 @@ header {
     }
 
     .skills-box4 {
-        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
         margin: 0;
         position: relative;
         width: 300px;
@@ -440,6 +450,50 @@ header {
         left: 320px;
         height: 192px;
     }
+
+    /* styling for Skills Section */
+    .catalog{
+        width: 100%;
+        margin-top: 2%;
+        max-height: 380px;
+        min-height: 380px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3); 
+    }
+
+    .catalog-container{
+        color: black;
+        max-height: 380px;
+        min-height: 380px;
+        position: relative;
+        text-align: justify;
+        width: 70%;
+        left: 30%;
+        
+    }
+
+    .Option-1, .Option-2, .Option-3, .Option-4{
+        box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3); 
+        width: 46.7%; 
+        height: 30px;
+        margin-top: .5%;
+        position: relative;
+    }
+
+    Option-1, .Option-2, .Option-3, .Option-4, a{
+        color: black;
+    }
+
+    Option-1, .Option-2, .Option-3, .Option-4, a:hover{
+        color: brown;
+    }
+
+    .catalog-container h1{
+        position: relative;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
 }
 
 /********************************************************************************************************************************************/
@@ -770,7 +824,54 @@ header {
         left: 320px;
         height: 192px;
     }
+
+    /* styling for Skills Section */
+    .catalog{
+        min-width: 100vh;
+        margin-top: 2%;
+        max-height: 380px;
+        min-height: 380px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3); 
+    }
+
+    .catalog-container{
+        color: black;
+        max-height: 380px;
+        min-height: 380px;
+        position: relative;
+        text-align: justify;
+        min-width: 100vh;
+        left: 25%;
+        
+    }
+
+    .Option-1, .Option-2, .Option-3, .Option-4{
+        box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3); 
+        width: 56%; 
+        height: 30px;
+        margin-top: .5%;
+        position: relative;
+    }
+
+    Option-1, .Option-2, .Option-3, .Option-4, a{
+        color: black;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    Option-1, .Option-2, .Option-3, .Option-4, a:hover{
+        color: brown;
+    }
+
+    .catalog-container h1{
+        position: relative;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
 }
+
 
 /********************************************************************************************************************************************/
 
@@ -918,6 +1019,8 @@ header {
     .about_me,
     .container_me,
     .skills .container_skills,
+    .catalog,
+    .catalog-container,
     .content_me::before {
         display: none;
     }

@@ -16,9 +16,9 @@ $txt ="Name = ". $name . "\r\n  Email = "
  
 $headers = "From: noreply@demosite.com" . "\r\n" .
             "CC: somebodyelse@example.com";
-if($email != NULL) {
+
     mail($to, $subject, $txt, $headers);
-}
+
  
 // Redirect to
 header("Location:index.html");

@@ -1,8 +1,8 @@
 <?php
 // Get data from form 
-$name = $_POST['name'];
-$email= $_POST['email'];
-$message= $_POST['message'];
+$name = $_POST['email'];
+$email= $_POST['subject'];
+$message= $_POST['body'];
  
 $to = "anand.bit10@gmail.com";
 $subject = "This is the subject line";

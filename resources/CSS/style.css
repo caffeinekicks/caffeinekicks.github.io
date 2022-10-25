@@ -10,7 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
-#home{
+#home {
     background: #f7f7f7;
 }
 
@@ -150,7 +150,7 @@ header {
 
     /* Style the front side */
     .flip_box_front {
-        background-color:#f7f7f7;
+        background-color: #f7f7f7;
         color: black;
     }
 
@@ -189,7 +189,7 @@ header {
 /**********************************************************************************************************************************************/
 
 @media only screen and (min-width: 1180px) {
-    
+
 
     /* Introduction Section */
     .introduction {
@@ -419,7 +419,7 @@ header {
         margin-top: 2%;
         height: 190px;
         background-color: white;
-        
+
     }
 
     .skills-box2 {
@@ -455,7 +455,7 @@ header {
     }
 
     /* styling for Skills Section */
-    .catalog{
+    .catalog {
         width: 100%;
         margin-top: 2%;
         max-height: 380px;
@@ -463,7 +463,7 @@ header {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .catalog-container{
+    .catalog-container {
         color: black;
         max-height: 380px;
         min-height: 380px;
@@ -471,28 +471,39 @@ header {
         text-align: justify;
         width: 70%;
         left: 30%;
-        
+
     }
 
-    .Option-1, .Option-2, .Option-3, .Option-4{
-        box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3); 
-        width: 46.7%; 
+    .Option-1,
+    .Option-2,
+    .Option-3,
+    .Option-4 {
+        box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3);
+        width: 46.7%;
         height: 30px;
         margin-top: .5%;
         position: relative;
         background-color: rgba(211, 211, 211, 0.486);
-        
+
     }
 
-    Option-1, .Option-2, .Option-3, .Option-4, a{
+    Option-1,
+    .Option-2,
+    .Option-3,
+    .Option-4,
+    a {
         color: black;
     }
 
-    Option-1, .Option-2, .Option-3, .Option-4, a:hover{
+    Option-1,
+    .Option-2,
+    .Option-3,
+    .Option-4,
+    a:hover {
         color: brown;
     }
 
-    .catalog-container h1{
+    .catalog-container h1 {
         position: relative;
         font-size: 50px;
         margin-bottom: 15px;
@@ -503,9 +514,6 @@ header {
 /********************************************************************************************************************************************/
 /* responsive in tablet mode */
 @media only screen and (max-width: 1180px) and (min-width: 499px) {
-    header {
-        min-width: 100vh;
-    }
 
     .logo h4 {
         font-size: small;
@@ -552,7 +560,7 @@ header {
 
     /* Introduction Section */
     .introduction {
-        min-width: 100vh;
+
         height: calc(50vh - 66px);
         max-height: 350px;
         min-height: 350px;
@@ -568,7 +576,7 @@ header {
         max-height: 350px;
         min-height: 350px;
         position: relative;
-        min-width: 100vh;
+
         left: 25%;
         top: 30px;
     }
@@ -637,7 +645,7 @@ header {
 
     /* About Me Section */
     .about_me {
-        min-width: 100vh;
+
         max-height: 350px;
         min-height: 350px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -650,7 +658,7 @@ header {
 
     .content_me {
         color: black;
-        min-width: 100vh;
+
         max-height: 350px;
         min-height: 350px;
         margin-top: 5px;
@@ -703,7 +711,7 @@ header {
 
     /* styling for Skills Section */
     .skills {
-        min-width: 100vh;
+
         max-height: 550px;
         min-height: 550px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -834,46 +842,56 @@ header {
     }
 
     /* styling for Skills Section */
-    .catalog{
-        min-width: 100vh;
-        margin-top: 2%;
+    .catalog {
+        margin-top: 5%;
         max-height: 380px;
         min-height: 380px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3); 
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
     }
 
-    .catalog-container{
+    .catalog-container {
         color: black;
         max-height: 380px;
         min-height: 380px;
         position: relative;
         text-align: justify;
-        min-width: 100vh;
+
         left: 25%;
-        
+
     }
 
-    .Option-1, .Option-2, .Option-3, .Option-4{
-        box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3); 
-        width: 54%; 
+    .Option-1,
+    .Option-2,
+    .Option-3,
+    .Option-4 {
+        box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3);
+        width: 54%;
         height: 30px;
         margin-top: .5%;
         position: relative;
         background-color: rgba(211, 211, 211, 0.356);
     }
 
-    Option-1, .Option-2, .Option-3, .Option-4, a{
+    Option-1,
+    .Option-2,
+    .Option-3,
+    .Option-4,
+    a {
         color: black;
         font-size: 12px;
         font-weight: 600;
     }
 
-    Option-1, .Option-2, .Option-3, .Option-4, a:hover{
+    Option-1,
+    .Option-2,
+    .Option-3,
+    .Option-4,
+    a:hover {
         color: brown;
     }
 
-    .catalog-container h1{
+    .catalog-container h1 {
         position: relative;
         font-size: 30px;
         margin-bottom: 15px;

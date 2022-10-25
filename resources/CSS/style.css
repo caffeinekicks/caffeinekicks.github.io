@@ -11,12 +11,11 @@ html {
 }
 
 #home{
-    background-color: lightgray;
+    background: #f7f7f7;
 }
 
 header {
-    background: lightgray;
-    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 #menu {
@@ -151,13 +150,13 @@ header {
 
     /* Style the front side */
     .flip_box_front {
-        background-color: lightgrey;
+        background-color:#f7f7f7;
         color: black;
     }
 
     /* Style the back side */
     .flip_box_back {
-        background-color: lightgrey;
+        background-color: #f7f7f7;
         color: black;
         transform: rotateY(180deg);
     }
@@ -201,7 +200,6 @@ header {
         max-height: 450px;
         min-height: 450px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
     }
 
     .container {
@@ -270,7 +268,7 @@ header {
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         font-size: 15px;
         position: relative;
-        right: 9.7em;
+        right: 10.2em;
         top: -1.7em;
         white-space: nowrap;
     }
@@ -326,6 +324,7 @@ header {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: relative;
         box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
+        background-color: lightgray;
     }
 
     .container_skills {
@@ -419,6 +418,7 @@ header {
         width: 300px;
         margin-top: 2%;
         height: 190px;
+        background-color: white;
         
     }
 
@@ -430,6 +430,7 @@ header {
         height: 190px;
         left: 320px;
         top: -190px;
+        background-color: white;
     }
 
     .skills-box3 {
@@ -439,6 +440,7 @@ header {
         width: 300px;
         height: 192px;
         top: -170px;
+        background-color: white;
     }
 
     .skills-box4 {
@@ -449,6 +451,7 @@ header {
         top: -362px;
         left: 320px;
         height: 192px;
+        background-color: white;
     }
 
     /* styling for Skills Section */
@@ -458,7 +461,6 @@ header {
         max-height: 380px;
         min-height: 380px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3); 
     }
 
     .catalog-container{
@@ -478,6 +480,8 @@ header {
         height: 30px;
         margin-top: .5%;
         position: relative;
+        background-color: rgba(211, 211, 211, 0.486);
+        
     }
 
     Option-1, .Option-2, .Option-3, .Option-4, a{
@@ -553,7 +557,6 @@ header {
         max-height: 350px;
         min-height: 350px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
     }
 
     .container {
@@ -638,7 +641,6 @@ header {
         max-height: 350px;
         min-height: 350px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
         margin-top: 3%;
     }
 
@@ -663,7 +665,7 @@ header {
 
     .content_me .about {
         padding-top: 10px;
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 500;
         max-width: 70%;
     }
@@ -706,7 +708,8 @@ header {
         min-height: 550px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: relative;
-        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.3);
+        background-color: lightgray;
     }
 
     .container_skills {
@@ -723,6 +726,7 @@ header {
     .container_skills .name {
         font-size: 30px;
         font-weight: 600;
+        padding-top: 15px;
     }
 
     .skills-box1 h3 {
@@ -794,6 +798,7 @@ header {
         width: 300px;
         margin-top: 2%;
         height: 190px;
+        background-color: white;
     }
 
     .skills-box2 {
@@ -804,15 +809,17 @@ header {
         height: 190px;
         left: 320px;
         top: -190px;
+        background-color: white;
     }
 
     .skills-box3 {
-        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
         margin: 0;
         position: relative;
         width: 300px;
         height: 192px;
         top: -170px;
+        background-color: white;
     }
 
     .skills-box4 {
@@ -823,6 +830,7 @@ header {
         top: -362px;
         left: 320px;
         height: 192px;
+        background-color: white;
     }
 
     /* styling for Skills Section */
@@ -848,10 +856,11 @@ header {
 
     .Option-1, .Option-2, .Option-3, .Option-4{
         box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.3); 
-        width: 56%; 
+        width: 54%; 
         height: 30px;
         margin-top: .5%;
         position: relative;
+        background-color: rgba(211, 211, 211, 0.356);
     }
 
     Option-1, .Option-2, .Option-3, .Option-4, a{
@@ -1028,7 +1037,7 @@ header {
 
 /* styling for introduction(home) page - mobile view only */
 #intro-1 {
-    background-color: black;
+    background-color: #363636;
 }
 
 #menu-1 {
@@ -1087,7 +1096,6 @@ header {
 .card img {
     width: 100%;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-    border-style: solid;
 }
 
 .card h1 {

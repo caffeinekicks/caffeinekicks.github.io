@@ -1,11 +1,11 @@
 <?php
 // Get data from form 
-$name = $_POST['subject'];
+$name = $_POST['name'];
 $email= $_POST['email'];
 $message= $_POST['body'];
  
 $to = "anand.bit10@gmail.com";
-$subject1 = "This is the subject line";
+$subject = "This is the subject line";
  
 // The following text will be sent
 // Name = user entered name
@@ -16,9 +16,12 @@ $txt ="Name = ". $name . "\r\n  Email = "
  
 $headers = "From: noreply@demosite.com" . "\r\n" .
             "CC: somebodyelse@example.com";
-
-    mail($to, $subject1, $txt, $headers);
-
+if($email != NULL) {
+    mail($to, $subject, $txt, $headers);
+else{
+    die('Thank you for your email');
+    }
+}
  
 // Redirect to
 header("Location:index.html");

@@ -1002,17 +1002,17 @@ header {
 
     label[for=name] {
         color: white;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     label[for=email] {
         color: white;
-        font-size: 17.5px;
+        font-size: 18.5px;
     }
 
     label[for=message] {
         color: white;
-        font-size: 16.5px;
+        font-size: 17px;
     }
 
     .contact #name {

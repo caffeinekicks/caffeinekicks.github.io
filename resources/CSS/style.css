@@ -263,6 +263,9 @@ header {
 /**********************************************************************************************************************************************/
 
 @media only screen and (min-width: 1180px) {
+    html, body{
+        overflow-x: scroll;
+    }
 
     /* Introduction Section */
     .introduction {
@@ -699,6 +702,42 @@ header {
 
     .contact #submit:hover {
         color: white;
+    }
+
+    footer{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        height: 150px;
+        background-color: black;
+        color: whitesmoke;
+        font-weight: 500;
+    }
+
+    .footer-1{
+        position: relative;
+        padding-top: 2%;
+        left: 40%;
+    }
+    
+
+    .footer-icon{
+        position: relative;
+        padding-top: 1%;     
+    }
+
+    .footer-icon a{
+        position: relative;
+        color: whitesmoke;
+        line-height: 15px;
+        display: inline-block;
+        line-height: 15px;
+        padding-right: 4px;
+        font-size: 21px;
+    }
+
+    .footer-icon a:hover{
+        color: brown;
     }
 
 }
@@ -1225,6 +1264,38 @@ header {
     .contact #submit:hover {
         color: white;
     }
+
+    footer{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        height: 150px;
+        background-color: black;
+        color: whitesmoke;
+        font-weight: 500;
+    }
+
+    .footer-1{
+        position: relative;
+        padding-top: 2%;
+        left: 40%;
+    }
+    
+
+    .footer-icon{
+        position: relative;
+        padding-top: 1%;     
+    }
+
+    .footer-icon a{
+        position: relative;
+        color: whitesmoke;
+        line-height: 15px;
+        display: inline-block;
+        line-height: 15px;
+        padding-right: 4px;
+        font-size: 21px;
+    }
 }
 
 
@@ -1383,6 +1454,8 @@ header {
     .parallax-3,
     .parallax-4,
     .parallax-5,
+    .footer,
+    .footer-1,
     .content_me::before {
         display: none;
     }
@@ -1490,3 +1563,4 @@ header {
 .social a:hover {
     color: brown;
 }
+

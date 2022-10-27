@@ -710,7 +710,7 @@ header {
 @media only screen and (max-width: 1180px) and (min-width: 499px) {
 
     html, body{
-        width: 1189px;
+        max-width: 1180px;
     }
 
     .logo h4 {
@@ -799,8 +799,6 @@ header {
     .profile_image img {
         width: 100px;
         height: auto;
-        border-style: solid;
-        border-color: black;
         opacity: 80%;
     }
 

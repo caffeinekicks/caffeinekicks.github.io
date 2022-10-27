@@ -26,6 +26,7 @@ header {
 .parallax-1 {
     background-image: url("/resources/Images/parallax.jpg");
     height: 92%;
+    opacity: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -708,6 +709,10 @@ header {
 /* responsive in tablet mode */
 @media only screen and (max-width: 1180px) and (min-width: 499px) {
 
+    html, body{
+        width: 1189px;
+    }
+
     .logo h4 {
         font-size: small;
     }
@@ -796,7 +801,13 @@ header {
         height: auto;
         border-style: solid;
         border-color: black;
+        opacity: 80%;
     }
+
+    .profile_image img:hover {
+        opacity: 100%;
+    }
+
 
     .icon {
         width: 30px;
@@ -1193,7 +1204,7 @@ header {
     }
 
     .contact #message {
-        margin-left: 212px;
+        margin-left: 210px;
         top: 15px;
         position: relative;
     }

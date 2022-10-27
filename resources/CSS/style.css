@@ -503,7 +503,6 @@ header {
         margin: 0;
         position: relative;
         width: 300px;
-        margin-top: 2%;
         top: 30px;
         height: 190px;
         background-color: white;
@@ -613,7 +612,6 @@ header {
    
     .contact_us {
         width: 100%;
-        margin-top: 3%;
         padding-top: 1.5%;
         max-height: 450px;
         min-height: 450px;
@@ -710,7 +708,8 @@ header {
 @media only screen and (max-width: 1180px) and (min-width: 499px) {
 
     html, body{
-        max-width: 1180px;
+        width: 1180px;
+        overflow-x: scroll;
     }
 
     .logo h4 {
@@ -1127,7 +1126,6 @@ header {
    
     .contact_us {
         width: 100%;
-        margin-top: 3%;
         padding-top: 1.5%;
         max-height: 450px;
         min-height: 450px;

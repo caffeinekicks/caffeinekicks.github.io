@@ -10,13 +10,12 @@ html,
 body {
     scroll-behavior: smooth;
     height: 100%;
-    min-width: 100%;
+    min-width: 100%;  
 }
 
 #home {
     background: #f7f7f7;
     overflow-x: hidden;
-
 }
 
 header {
@@ -716,6 +715,7 @@ header {
         background-color: black;
         color: whitesmoke;
         font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .footer-1{
@@ -923,7 +923,7 @@ header {
 
     .content_me .about {
         padding-top: 20px;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 500;
         width: 70%;
     }
@@ -956,7 +956,7 @@ header {
     .flip_box_front .fa-briefcase {
         color: black;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        font-size: 50px;
+        font-size: 60px;
         top: 15px;
         position: relative;
     }
@@ -1277,6 +1277,7 @@ header {
         background-color: black;
         color: whitesmoke;
         font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .footer-1{
@@ -1612,7 +1613,27 @@ header {
     background-size: cover;
 }
 
+.mobile-parallax-2{
+    background-image: url("/resources/Images/parallax-2.jpg");
+    height: 60%;
+    opacity: 80%;
+    position: relative;
+    bottom: 1%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .mobile-parallax-1 h1{
+    font-size: 50px;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mobile-parallax-2 h1{
     font-size: 50px;
     position: relative;
     top: 5%;
@@ -1622,20 +1643,54 @@ header {
 
 .mobile-about-me {
     width: 100%;
-    height: auto;
     max-width: 100%;
+    min-height: 30vh;
     margin: auto;
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     font-size: 15px;
     top: 20px;
-    min-height: 100vh;
+    padding: 0px 10px 0px 10px;
+}
+
+.mobile-about-me p{
+    font-weight: 500;
+}
+
+
+p{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mail{
     font-weight: 600;
 }
+
+.container-skills {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    position: relative;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    margin-bottom: 2%;
+  }
+  
+  .ABAP {width: 90%; min-height: 10%; background-color: #04AA6D;}
+  .Workday {width: 80%; min-height: 10%; background-color: #2196F3;} 
+  .Security {width: 65%; min-height: 10%; background-color: brown;} 
+  .HTML{width: 90%; min-height: 10%; background-color: #04AA6D}
+  .CSS{width: 90%; min-height: 10%; background-color: #04AA6D;} 
+  .SQL{width: 80%; min-height: 10%; background-color: #2196F3;} 
+
+
 
 
 

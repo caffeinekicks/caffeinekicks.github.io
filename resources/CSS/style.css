@@ -1653,10 +1653,9 @@ header {
 }
 
 .mobile-about-me p{
-    font-weight: 500;
     left: 10px;
     position: relative;
-    padding-right: 10px;
+    padding-right: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

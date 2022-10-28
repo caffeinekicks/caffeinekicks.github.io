@@ -1643,7 +1643,7 @@ header {
 .mobile-about-me {
     width: 100%;
     max-width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     margin: auto;
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1679,7 +1679,6 @@ p{
     padding-top: 10px; /* Add top padding */
     padding-bottom: 10px; /* Add bottom padding */
     color: white; /* White text color */
-    margin-bottom: 2%;
   }
   
   .ABAP {width: 90%; min-height: 10%; background-color: #04AA6D;}

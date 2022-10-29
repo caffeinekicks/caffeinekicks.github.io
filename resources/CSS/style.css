@@ -1761,15 +1761,15 @@ header {
 }
 
 .mobile-contact_me img{
-    width: 400px;
+    width: 300px;
     height: 300px;
     height: auto;
     position: relative;
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: 0 auto;
-    top: 25px;
+    left: 90px;
+    top: 35px;
 }
 
 .mobile-contact_me p{
@@ -1778,13 +1778,13 @@ header {
     font-size: 13px;
     display: flex;
     align-content: center;
-    justify-content: center;
+    left: 90px;
     top: 40px;
     margin-bottom: 25px;
 
 }
 
-label[for=name] {
+label[for=mob-name] {
     color: white;
     font-size: 15px;
     position: relative;
@@ -1794,7 +1794,7 @@ label[for=name] {
     top: 30px;
 }
 
-label[for=email] {
+label[for=mob-email] {
     color: white;
     font-size: 15px;
     position: relative;
@@ -1805,7 +1805,7 @@ label[for=email] {
 
 }
 
-label[for=message] {
+label[for=mob-message] {
     color: white;
     font-size: 15px;
     position: relative;

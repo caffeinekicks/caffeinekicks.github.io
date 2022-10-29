@@ -1498,8 +1498,7 @@ header {
         display: none;
     }
 
-    #mob-contact-me{
-        width: 498.9px;
+    html,body{
         overflow-x: hidden;
     }
 }

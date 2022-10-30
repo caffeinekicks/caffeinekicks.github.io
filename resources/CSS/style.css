@@ -1760,7 +1760,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    left: 70px;
+    left: 60px;
     top: 35px;
 }
 
@@ -1770,10 +1770,9 @@ header {
     font-size: 13px;
     display: flex;
     align-content: center;
-    left: 70px;
+    left: 60px;
     top: 40px;
     margin-bottom: 25px;
-
 }
 
 label[for=mob-name] {
@@ -1813,7 +1812,7 @@ label[for=mob-message] {
     top: 15px;
     display: flex;
     align-content: center;
-    width: 100px;
+    width: 120px;
     
 }
 
@@ -1823,7 +1822,7 @@ label[for=mob-message] {
     top: 15px;
     display: flex;
     align-content: center;
-    width: 100px;
+    width: 120px;
 }
 
 .mobile-contact_me #message {
@@ -1832,7 +1831,7 @@ label[for=mob-message] {
     top: 15px;
     display: flex;
     align-content: center;
-    width: 100px;
+    width: 120px;
 }
 
 .mobile-contact_me #submit {

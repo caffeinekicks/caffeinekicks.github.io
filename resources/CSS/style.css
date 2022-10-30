@@ -1754,7 +1754,7 @@ header {
 }
 
 .mobile-contact_me img{
-    width: 270px;
+    width: 250px;
     height: auto;
     position: relative;
     display: flex;
@@ -1812,7 +1812,7 @@ label[for=mob-message] {
     top: 15px;
     display: flex;
     align-content: center;
-    width: 120px;
+    width: 110px;
     
 }
 
@@ -1822,7 +1822,7 @@ label[for=mob-message] {
     top: 15px;
     display: flex;
     align-content: center;
-    width: 120px;
+    width: 110px;
 }
 
 .mobile-contact_me #message {
@@ -1831,7 +1831,7 @@ label[for=mob-message] {
     top: 15px;
     display: flex;
     align-content: center;
-    width: 120px;
+    width: 110px;
 }
 
 .mobile-contact_me #submit {

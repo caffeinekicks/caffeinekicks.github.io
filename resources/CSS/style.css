@@ -1538,6 +1538,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .mobile-parallax-2 {
@@ -1550,6 +1551,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .mobile-parallax-3 {
@@ -1561,6 +1563,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .mobile-parallax-4 {
@@ -1572,6 +1575,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .mobile-parallax-1 h1 {
@@ -2007,6 +2011,9 @@ label[for=mob-message] {
 
 .image_wrapper h1 {
     padding-top: 10px;
+    font-weight: 500;
+    font-size: large;
+    font-family:sans-serif;
 }
 
 @media only screen and (max-width: 499px) {

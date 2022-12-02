@@ -76,6 +76,59 @@ header {
     background-size: cover;
 }
 
+/* parallax effect in tablet mode */
+@media only screen and (max-width: 1180px) and (min-width: 499px) {
+    .parallax-1 {
+        background-image: url("/resources/Images/parallax.jpg");
+        height: 70%;
+        opacity: 80%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax-2 {
+        background-image: url("/resources/Images/parallax-2.jpg");
+        height: 30%;
+        opacity: 70%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax-3 {
+        background-image: url("/resources/Images/parallax-3.jpg");
+        height: 30%;
+        opacity: 70%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax-4 {
+        background-image: url("/resources/Images/parallax-4.jpg");
+        height: 30%;
+        opacity: 70%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax-5 {
+        background-image: url("/resources/Images/parallax-5.jpg");
+        height: 30%;
+        opacity: 70%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 /*********************************************************************************************************/
 /* logo and menu navigations */
 
@@ -253,6 +306,7 @@ header {
         font-weight: 500;
         position: relative;
         top: 25px;
+        left: -20px;
     }
 
     .flip_box_back h4 {
@@ -261,6 +315,7 @@ header {
         font-weight: 600;
         position: relative;
         top: 10px;
+        left: -20px;
     }
 
     .flip_box_front .fa-briefcase {
@@ -269,6 +324,7 @@ header {
         font-size: 70px;
         top: 20px;
         position: relative;
+        left: -20px;
     }
 }
 
@@ -933,10 +989,11 @@ header {
     }
 
     .content_me .about {
-        padding-top: 20px;
+        padding-top: 40px;
         font-size: 15px;
         font-weight: 500;
         width: 70%;
+        position: relative;
     }
 
     .flip_box {

@@ -81,7 +81,7 @@ header {
     .parallax-1 {
         background-image: url("/resources/Images/parallax.jpg");
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
-        height: 110%;
+        height: 115%;
         opacity: 80%;
         background-attachment: fixed;
         background-position: center;
@@ -1318,7 +1318,7 @@ header {
     }
 
     .contact #message {
-        margin-left: 248px;
+        margin-left: 246.5px;
         top: 35px;
         position: relative;
     }

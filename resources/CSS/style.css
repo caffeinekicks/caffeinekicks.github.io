@@ -1595,7 +1595,7 @@ header {
 /* Parallax effect in mobile pages */
 .mobile-parallax-0 {
     background-image: url("/resources/Images/parallax-7.jpg");
-    height: 45%;
+    height: 40%;
     opacity: 80%;
     background-attachment: fixed;
     background-position: 100%, 50%;

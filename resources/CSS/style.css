@@ -1742,7 +1742,7 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     min-height: 100vh;
-    top: 250px;
+    top: 180px;
 }
 
 .card img {
@@ -1764,7 +1764,7 @@ header {
 	}
 	50% {
 		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-25px);
+		transform: translatey(-30px);
 	}
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);

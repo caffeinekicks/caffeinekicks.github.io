@@ -1688,7 +1688,7 @@ header {
 
 /********************************************************************************************************************************************/
 /* styling for introduction(home) page - mobile view only */
-#intro-1, html {
+#intro-1{
 	height: 100%;
     min-height: 120vh ;
 	margin: 0;

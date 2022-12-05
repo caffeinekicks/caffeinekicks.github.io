@@ -1678,7 +1678,14 @@ header {
 /********************************************************************************************************************************************/
 /* styling for introduction(home) page - mobile view only */
 #intro-1 {
-    background-color: #363636;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', sans-serif;
+	background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
 #menu-1 {
@@ -1686,7 +1693,11 @@ header {
     display: flex;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
+    height: auto;
     justify-content: right;
+    background-color: #363636;
+    padding-bottom: 5px;
+    padding-top: 3px;
 }
 
 #menu-1 ul {
@@ -1706,7 +1717,7 @@ header {
 }
 
 #menu-1 ul li a:hover {
-    color: brown;
+    color: orange;
 }
 
 .logo-1 {
@@ -1715,40 +1726,62 @@ header {
 }
 
 .logo-1 a {
-    color: white;
+    color: black;
 }
 
 .logo-1 h4 :hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
 }
 
 .card {
     width: 100%;
     height: 100%;
-    max-width: 100%;
     margin: auto;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     min-height: 100vh;
-
+    top: 250px;
 }
 
 .card img {
-    width: 100%;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 150px;
+	height: 180px;
+	box-sizing: border-box;
+	border: 4px black solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
 
 .card h1 {
     font-size: 45px;
     font-weight: 600;
-    color: white;
+    color: black;
+    padding-top: 5%;
 }
 
 .title {
     color: black;
     font-size: 20px;
-    color: white;
 }
 
 .company {
@@ -1756,7 +1789,6 @@ header {
     font-size: 20px;
     margin-top: 6px;
     font-weight: 600;
-    color: white;
 }
 
 .social {
@@ -1771,12 +1803,12 @@ header {
 .social a {
     text-decoration: none;
     font-size: 22px;
-    color: white;
+    color: black;
     padding: 2%;
 }
 
 .social a:hover {
-    color: brown;
+    color: whitesmoke;
 }
 
 /********************************************************************************************************************************************/

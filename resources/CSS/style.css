@@ -1965,7 +1965,7 @@ html{
     font-size: 50px;
     position: relative;
     padding-top: 15px;
-    text-align: center;
+    left: 110px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -1974,8 +1974,6 @@ html{
     height: auto;
     position: relative;
     display: flex;
-    align-content: center;
-    justify-content: center;
     left: 90px;
     top: 35px;
 }
@@ -2063,7 +2061,7 @@ label[for=mob-message] {
     position: relative;
     display: flex;
     align-content: center;
-    left: 160px;
+    left: 170px;
     top: 40px;
 
 }
@@ -2077,7 +2075,7 @@ label[for=mob-message] {
     width: 100%;
     display: flex;
     top: 80px;
-    left: -20px;
+    left: -10px;
     align-items: center;
     justify-content: center;
     font-size: small;

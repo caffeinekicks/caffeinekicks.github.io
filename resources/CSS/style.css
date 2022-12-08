@@ -1959,54 +1959,47 @@ html{
 	background: -moz-linear-gradient(-45deg, rgba(240, 245, 244, 0.24) 0%, rgba(68, 173, 73, 0) 100%);
 	background: -webkit-linear-gradient(-45deg, rgb(216, 233, 229) 0%, rgba(142, 68, 173, 1) 100%);
 	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    justify-content: center;
+    display: grid;
+    align-items: baseline;
 }
 
 .mobile-contact_me h1 {
     font-size: 50px;
     position: relative;
     padding-top: 15px;
-    left: 110px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mobile-contact_me img {
-    width: 270px;
+    width: 220px;
     height: auto;
     position: relative;
-    display: flex;
-    left: 90px;
-    top: 35px;
+    top: -130px;
 }
 
 .mobile-contact_me p {
     color: black;
     position: relative;
     font-size: 13px;
-    display: flex;
-    align-content: center;
-    left: 80px;
-    top: 45px;
-    margin-bottom: 35px;
+    top: -250px;
+    text-align: center;
 }
 
 label[for=mob-name] {
     color: black;
     font-size: 15px;
     position: relative;
-    display: flex;
     align-content: center;
-    left: 120px;
-    top: 30px;
+    top: -350px;
 }
 
 label[for=mob-email] {
     color: black;
     font-size: 15px;
     position: relative;
-    display: flex;
     align-content: center;
-    left: 120px;
-    top: 30px;
+    top: -350px;
 
 }
 
@@ -2014,16 +2007,14 @@ label[for=mob-message] {
     color: black;
     font-size: 15px;
     position: relative;
-    display: flex;
     align-content: center;
-    left: 120px;
-    top: 30px;
+    top: -350px;
 }
 
 .mobile-contact_me #name {
     position: relative;
-    left: 220px;
-    top: 15px;
+    left: 150px;
+    top: -368px;
     display: flex;
     align-content: center;
     width: 110px;
@@ -2032,8 +2023,8 @@ label[for=mob-message] {
 
 .mobile-contact_me #email {
     position: relative;
-    left: 220px;
-    top: 15px;
+    left: 150px;
+    top: -368px;
     display: flex;
     align-content: center;
     width: 110px;
@@ -2041,8 +2032,8 @@ label[for=mob-message] {
 
 .mobile-contact_me #message {
     position: relative;
-    left: 220px;
-    top: 15px;
+    left: 150px;
+    top: -368px;
     display: flex;
     align-content: center;
     width: 110px;
@@ -2058,11 +2049,7 @@ label[for=mob-message] {
     padding-bottom: 5px;
     background-image: linear-gradient(270deg, brown 0%, #FFBA46 100%);
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
-    position: relative;
-    display: flex;
-    align-content: center;
-    left: 170px;
-    top: 40px;
+    top: -340px;
 
 }
 
@@ -2073,16 +2060,11 @@ label[for=mob-message] {
 .contact-me-logo {
     position: relative;
     width: 100%;
-    display: flex;
-    top: 80px;
-    left: -10px;
-    align-items: center;
-    justify-content: center;
     font-size: small;
+    top: -400px;
 }
 
 .contact-me-logo a {
-    position: relative;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

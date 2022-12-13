@@ -1915,6 +1915,9 @@ html{
 
 /********************************************************************************************************************************************/
 /* Styling for contact me page - mobile view */
+#contact_mobile_view{
+    background-color: whitesmoke;
+}
 
 .moving-character {
     background-image: url("/resources/Images/sprite_sheet.png");
@@ -1949,40 +1952,40 @@ html{
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 .mobile-contact_me {
-    height: 100%;
-    min-height: 120vh;
 	margin: 0;
 	padding: 0;
 	font-family: 'Helvetica', sans-serif;
-	background: rgb(143, 141, 141);
-	background: -moz-linear-gradient(-45deg, rgba(240, 245, 244, 0.24) 0%, rgba(68, 173, 73, 0) 100%);
-	background: -webkit-linear-gradient(-45deg, rgb(216, 233, 229) 0%, rgba(142, 68, 173, 1) 100%);
-	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-    justify-content: center;
+    position: relative;
     display: grid;
-    align-items: baseline;
+    justify-content: center;
 }
 
 .mobile-contact_me h1 {
     font-size: 50px;
     position: relative;
+    display: flex;
+    justify-content: center;
     padding-top: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mobile-contact_me img {
-    width: 220px;
+    width: 240px;
     height: auto;
     position: relative;
-    top: -130px;
+    padding-left: 35px;
+    margin-top: 20px;
 }
 
 .mobile-contact_me p {
     color: black;
     position: relative;
+    display: flex;
+    justify-content: center;
     font-size: 13px;
-    top: -250px;
+    padding-top: 13px;
     text-align: center;
 }
 
@@ -1990,53 +1993,57 @@ label[for=mob-name] {
     color: black;
     font-size: 15px;
     position: relative;
-    align-content: center;
-    top: -350px;
+    top: 30px;
+    left: -25%;
+    display: flex;
+    justify-content: center;
 }
 
 label[for=mob-email] {
     color: black;
     font-size: 15px;
     position: relative;
-    align-content: center;
-    top: -350px;
-
+    left: -25%;
+    top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 label[for=mob-message] {
     color: black;
     font-size: 15px;
     position: relative;
-    align-content: center;
-    top: -350px;
+    left: -20.8%;
+    top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .mobile-contact_me #name {
     position: relative;
     left: 150px;
-    top: -368px;
+    top: 12px;
     display: flex;
     align-content: center;
-    width: 110px;
-
+    width: 100px;
 }
 
 .mobile-contact_me #email {
     position: relative;
     left: 150px;
-    top: -368px;
+    top: 20px;
     display: flex;
     align-content: center;
-    width: 110px;
+    width: 100px;
 }
 
 .mobile-contact_me #message {
     position: relative;
     left: 150px;
-    top: -368px;
+    top: 30px;
     display: flex;
     align-content: center;
-    width: 110px;
+    width: 100px;
 }
 
 .mobile-contact_me #submit {
@@ -2049,8 +2056,8 @@ label[for=mob-message] {
     padding-bottom: 5px;
     background-image: linear-gradient(270deg, brown 0%, #FFBA46 100%);
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
-    top: -340px;
-
+    top: 60px;
+    left: 87px;
 }
 
 .mobile-contact_me #submit:hover {
@@ -2061,7 +2068,8 @@ label[for=mob-message] {
     position: relative;
     width: 100%;
     font-size: small;
-    top: -400px;
+    top: 100px;
+    left: 85px;
 }
 
 .contact-me-logo a {
@@ -2070,7 +2078,7 @@ label[for=mob-message] {
 }
 
 .contact-me-logo h4 a:hover {
-    color: whitesmoke;
+    color: darkgray;
 }
 
 /********************************************************************************************************************************************/

@@ -2087,7 +2087,8 @@ label[for=mob-message] {
     width: 100%;
     font-size: small;
     top: 100px;
-    left: 85px;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-me-logo a {

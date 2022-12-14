@@ -2071,7 +2071,6 @@ label[for=mob-message] {
     top: 60px;
 }
 
-
 .submit-button #submit {
     font-size: 15px;
     display: flex;
@@ -2088,15 +2087,25 @@ label[for=mob-message] {
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+
 .mobile-contact_me #submit:hover {
     color: white;
+}
+
+.mobile-contact_me .social{
+    position: relative;
+    top: 80px;
+}
+
+.mobile-contact_me .social a:hover{
+    color: brown;
 }
 
 .contact-me-logo {
     position: relative;
     width: 100%;
     font-size: small;
-    top: 100px;
+    top: 150px;
     display: flex;
     justify-content: center;
 }
@@ -2107,7 +2116,7 @@ label[for=mob-message] {
 }
 
 .contact-me-logo h4 a:hover {
-    color: darkgray;
+    color: brown;
 }
 
 /********************************************************************************************************************************************/
